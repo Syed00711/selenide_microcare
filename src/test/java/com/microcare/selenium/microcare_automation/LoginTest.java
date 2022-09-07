@@ -21,7 +21,7 @@ public class LoginTest
 	
 	@BeforeTest
 	public void config() {
-		 Configuration.browser ="safari";
+		 Configuration.browser ="chrome";
 		// Configuration.browserBinary="/Users/sh030348/Downloads";
 		 Configuration.baseUrl="https://www.bstackdemo.com/";
 		 Configuration.webdriverLogsEnabled=true;
